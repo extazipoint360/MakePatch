@@ -1,0 +1,20 @@
+{
+  "useBuiltIn": true,
+  "sources": [
+    {
+      "name": "github",
+      "type": "http",
+      "url": "https://raw.githubusercontent.com/extazipoint360/1423/refs/heads/main/",
+      "manifest": "https://raw.githubusercontent.com/extazipoint360/1423/refs/heads/main/grlauncher.integrity.txt",
+      "escapePath": true
+    },
+    {
+      "name": "geca-shop",
+      "type": "http",
+      "url": "https://geca-shop.duckdns.org/Update1/",
+      "manifest": "https://geca-shop.duckdns.org/Update1/grlauncher.integrity.txt",
+      "escapePath": true,
+      "acceptStale": true
+    }
+  ]
+}
